@@ -173,7 +173,7 @@ body {
 footer {
     background-color: black;
     color: white;
-    height: 50vh;
+    height: 53vh;
     display: flex;
 }
 
@@ -229,7 +229,7 @@ footer {
 
 /* Media Query Starts */
 
-@media only screen and (min-width:621px) and (max-width:980px) {
+@media only screen and (min-width:481px) and (max-width:768px) {
 
     .great h1 {
         font-size: 30px;
@@ -286,7 +286,7 @@ footer {
     }
 }
 
-@media only screen and (max-width:620px) {
+@media only screen and (max-width:480px) {
     .top {
         flex-direction: column;
         text-align: center;
@@ -351,7 +351,7 @@ footer {
     }
 
     footer {
-        height: 92vh;
+        height: 95vh;
     }
 
 }
